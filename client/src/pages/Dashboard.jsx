@@ -15,7 +15,7 @@ const Dashboard = () => {
     const fetchUserDetails = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:3000/api/v1/userDetails/",
+          "https://taskify-9ogy.onrender.com",
           {
             withCredentials: true,
           },
